@@ -1,10 +1,24 @@
 
 <html>
-	<head>
-        <script type="text/javascript" src="solution.js"></script>
-	</head>
+    <head>
+	 <link rel="stylesheet" type="text/css" href="solution.css">
+        <script type="text/javascript" src = "solution.js">
+			
+         </script>
+    </head>
 	
-	<body>
-	</body>
+    <body> 
+	<p>Table size</p>
+   
+	<input type="text" id="matrixSize" value=25  />
+	<input type="button" id="button1" value="Show field of treasures" onclick="MatrixBuild()"/>
+	<p>Gold treasures locating</p>
+	<input type="text" id="coordinateX" value=10 />
+	<input type="text" id="coordinateY" value=5 />
+	<input type="button" id="button2" value="Search" onclick="Search()"/>
+	<p>Treasures map</p>
+	<table id="myTable"></table>
+	<p id="treasuresID"></p>
+    </body>
 </html>
 
